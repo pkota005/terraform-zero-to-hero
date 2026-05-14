@@ -13,6 +13,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "EC2 AMI ID"
   type        = string
+  default     = "ami-xxxxxxxxxxxXX"
 }
 
 # Configure the AWS provider using the input variables
